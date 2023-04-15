@@ -2,7 +2,7 @@
  * @Author: zhangdi 1258956799@qq.com
  * @Date: 2023-04-15 21:50:32
  * @LastEditors: zhangdi 1258956799@qq.com
- * @LastEditTime: 2023-04-15 22:16:37
+ * @LastEditTime: 2023-04-15 22:52:45
  * @FilePath: /nobelium/blog.config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,7 +12,7 @@ const BLOG = {
   email: 'z1258956799@gmail.com',
   link: 'https://nobelium.vercel.app',
   description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
