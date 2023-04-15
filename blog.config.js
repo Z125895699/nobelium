@@ -2,7 +2,7 @@
  * @Author: zhangdi 1258956799@qq.com
  * @Date: 2023-04-15 21:50:32
  * @LastEditors: zhangdi 1258956799@qq.com
- * @LastEditTime: 2023-04-15 22:52:45
+ * @LastEditTime: 2023-04-15 23:13:57
  * @FilePath: /nobelium/blog.config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -46,7 +46,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
@@ -59,7 +59,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: '', // data-app-id
+      appId: 'e12334ed-e255-4f46-a4d7-6ab0a3f7e91d', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
